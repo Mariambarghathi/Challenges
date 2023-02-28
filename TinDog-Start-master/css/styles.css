@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+body {
+  font-family: 'Cairo', sans-serif !important;
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.container-fluid-sec {
+  padding: 3% 3%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2 rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* downloadbtn */
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title img  */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* features*/
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.featuresfa {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+/* testimonials section  */
+#testimonials {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.carousel-control-prev-icon {
+  margin-right: 80%;
+}
+
+.carousel-control-next-icon {
+  margin-left: 80%;
+}
+
+.testimonialsCF {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#cta {
+  text-align: center;
+  padding: 6% 15%;
+}
+
+.lasth3 {
+  font-size: 3rem;
+  font-family: Montserrat;
+}
+
+.cta-btn {
+  margin: 10px;
+}
+
+/* footer */
+#icons {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 2%;
+}
+
+.footerp {
+  text-align: center;
+}
+
+.lasticon {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
